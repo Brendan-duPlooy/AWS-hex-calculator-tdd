@@ -1,4 +1,4 @@
-# Hexadecimal Calculator - Functional Requirements
+# Hexadecimal Calculator - Functional Requirements1
 
 ## Input
 - The system must accept hexadecimal number inputs (0-9, A-F)
