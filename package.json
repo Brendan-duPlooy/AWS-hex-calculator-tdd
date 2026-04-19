@@ -1,0 +1,19 @@
+{
+  "name": "aws-hex-calculator-tdd",
+  "version": "1.0.0",
+  "description": "- Louise  \r - Brendan",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
