@@ -15,5 +15,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brendan-duPlooy/AWS-hex-calculator-tdd.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Brendan-duPlooy/AWS-hex-calculator-tdd/issues"
+  },
+  "homepage": "https://github.com/Brendan-duPlooy/AWS-hex-calculator-tdd#readme"
 }
