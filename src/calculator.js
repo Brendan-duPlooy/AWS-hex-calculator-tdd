@@ -40,3 +40,10 @@ function divide(a, b) {
 }
 
 module.exports = { add, subtract, multiply, divide };
+
+if (typeof window !== 'undefined') {
+    window.add = add;
+    window.subtract = subtract;
+    window.multiply = multiply;
+    window.divide = divide;
+}
