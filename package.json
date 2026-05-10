@@ -1,0 +1,28 @@
+{
+  "name": "aws-hex-calculator-tdd",
+  "version": "1.0.0",
+  "description": "- Louise  \r - Brendan",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brendan-duPlooy/AWS-hex-calculator-tdd.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Brendan-duPlooy/AWS-hex-calculator-tdd/issues"
+  },
+  "homepage": "https://github.com/Brendan-duPlooy/AWS-hex-calculator-tdd#readme"
+}
