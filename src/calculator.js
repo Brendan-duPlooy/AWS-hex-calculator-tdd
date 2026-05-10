@@ -39,4 +39,13 @@ function divide(a, b) {
     return decimalToHex(Math.floor(hexToDecimal(a) / hexToDecimal(b)));
 }
 
-module.exports = { add, subtract, multiply, divide };
+if (typeof module !== 'undefined') {
+    module.exports = { add, subtract, multiply, divide };
+}
+
+if (typeof window !== 'undefined') {
+    window.add = add;
+    window.subtract = subtract;
+    window.multiply = multiply;
+    window.divide = divide;
+}

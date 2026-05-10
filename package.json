@@ -8,6 +8,7 @@
     "test": "tests"
   },
   "devDependencies": {
+    "cypress": "^15.14.2",
     "jest": "^30.3.0"
   },
   "scripts": {
