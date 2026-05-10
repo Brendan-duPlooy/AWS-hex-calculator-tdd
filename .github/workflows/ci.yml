@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - section-2-testing
+      - section-3-gui
       - feature-*
 
   pull_request:
@@ -27,5 +28,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests
+      - name: Run Jest tests
         run: npm test
+
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v6
+        with:
+          start: npx live-server src --port=5500
+          wait-on: 'http://127.0.0.1:5500'
