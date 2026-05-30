@@ -17,10 +17,8 @@ As part of the IMY 772 AWS Workshop, this project is structured as an online cou
 
 ## AWS Services Used
 The following AWS services will be used in later stages of the project for deployment and scalability:
-
-- **Amazon S3** – for storing static files and assets  
-- **AWS Lambda** – for executing backend logic in a serverless environment  
-- **Amazon API Gateway** – for handling API requests and communication between the frontend and backend  
+ 
+- **AWS Elastic Beanstalk** – for executing backend logic in a automated deployment
 
 ---
 
